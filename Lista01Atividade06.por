@@ -9,6 +9,8 @@ programa {
 
     se(numero1>numero2){
       escreva("O primeiro número é maior ", numero1)
+    } senao se(numero1 == numero2){
+      escreva("Os dois números são iguais")
     }
     senao{
       escreva("O segundo número é maior ", numero2)
