@@ -8,6 +8,14 @@ public class Aluno extends Pessoa{
         this.matricula = matricula;
     }
 
+    public String getMatricula() {
+        return matricula;
+    }
+
+    public void setMatricula(String matricula) {
+        this.matricula = matricula;
+    }
+
     public void apresentar(){
         System.out.println("Meu nome é: " + super.getNome());
     }
